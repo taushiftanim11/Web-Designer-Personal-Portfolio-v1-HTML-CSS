@@ -1,0 +1,254 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.header-a {
+    background-color: #23232e;
+    color: white;
+}
+.header-s>a img {
+    width: 130px;
+    height: auto;
+    margin-top: 75px;
+    margin-bottom: 140px;
+}
+.header-s h2 {
+    margin-bottom: 35px;
+}
+.header-s p {
+    font-size: 18px;
+    max-width: 435px;
+    margin: 0px auto;
+}
+.header-s a[href="#work-a"] i{
+    margin-top: 185px;
+    margin-bottom: 45px;
+    padding: 11px;
+    font-size: 22px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+.about-a {
+    background-image: url(image/lines.png);
+    color: #464b4f;
+    background-size: cover;
+    padding-top: 110px;
+}
+.p-a {
+    margin-bottom: 100px;;
+}
+.p-a :nth-child(2) {
+    margin-top: 45px;
+}
+.p-a p {
+    max-width: 860px;
+    font-size: 28px;
+    margin: 0px auto;
+}
+.about-s h2 {
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 95px;
+}
+.cols {
+    max-width: 27%;
+    margin: 0px 1.5%;
+    text-align: left;
+}
+.cols h4 {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.cols p {
+    font-size: 18px;
+}
+.work-a {
+    background-color: #23232e;
+    color: white;
+}
+.work-s h2 {
+    margin-bottom: 40px;
+}
+.work-nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.work-nav li {
+    margin: 15px;
+}
+.work-nav a {
+    color: white;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 2px;
+}
+.active a {
+    border-bottom: 2px solid #7b77c9;
+}
+.work-nav li:hover a {
+    border-bottom: 2px solid #7b77c9;
+}
+.wg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.wsg {
+    max-width: 31%;
+    height: auto;
+    margin: 16px .8%;
+}
+.wsg img {
+    max-width: 100%;
+    height: auto;
+}
+.wsg h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 19px;
+    font-weight: normal;
+}
+.wsg span {
+    color: #6d7590;
+    font-size: 17px;
+}
+.work-b {
+    margin-bottom: 110px;
+}
+.work-b a {
+    background-color: #7b77c9;
+    color: white;
+    padding: 22px 48px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.photo-a {
+    background-image: url(image/lines.png);
+    background-size: cover;
+    color: #464b4f;
+}
+.photo-s h2 {
+    margin-top: 110px;
+    margin-bottom: 40px;
+}
+.photo-s .p-a {
+    max-width: 770px;
+    margin: 0px auto;
+}
+.pg {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.psg {
+    max-width: 31%;
+    height: auto;
+    margin: 1% .8%;
+}
+.psg img {
+    width: 100%;
+}
+.photo-b {
+    margin-top: 85px;
+    margin-bottom: 105px;
+}
+.photo-b a {
+    background-color: #7b77c9;
+    color: white;
+    padding: 22px 48px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.sub-a {
+    background-color: #23232e;
+    color: white;
+}
+.sub-s>img {
+    margin-top: 265px;
+    margin-bottom: 65px;
+}
+.sub-s p {
+    max-width: 440px;
+    font-size: 18px;
+    margin: 0px auto;
+}
+.form {
+    margin-top: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 265px;
+}
+.form form {
+    display: flex;
+    margin: 0px auto;
+}
+.form input[type="text"] {
+    width: 360px;
+    height: 10px;
+    padding: 25px 25px;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+}
+.form input[type=submit] {
+    background-color: #7b77c9;
+    color: white;
+    padding: 20px 55px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-left: 12px;
+    border: none;
+}
+.footer-a {
+    background-image: url(image/lines.png);
+    background-size: cover;
+    color: #464b4f;
+}
+.logo {
+    margin: 100px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo ul {
+    display: flex;
+}
+.logo li {
+    margin: 0px 20px;
+}
+.logo i {
+    color: #464b4f;
+    font-size: 35px;
+}
+.footer-p {
+    font-size: 17px;
+}
+.s {
+    width: 60%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    font-size: 78px;
+    text-transform: uppercase;
+}
+ul {
+    padding: 0px;
+    list-style: none;
+}
